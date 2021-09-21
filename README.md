@@ -1,3 +1,5 @@
+# mdtabs for TabFS
+
 Copy `[$TITLE]($URL)` of tabs to clipboard with [TabFS](https://github.com/osnr/TabFS) (thanks Omar !!).
 
 Note: This script was written for a personal use-case — it may not be the most wieldy. It uses `pbcopy` which works on mac os. Look into `clip` if on windows or `xclip`/`xsel` if on linux.
