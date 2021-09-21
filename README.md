@@ -1,5 +1,4 @@
-# mdtabs
-Copy `[$TITLE]($URL)` of tabs to clipboard with [TabFS](https://github.com/osnr/TabFS).
+Copy `[$TITLE]($URL)` of tabs to clipboard with [TabFS](https://github.com/osnr/TabFS) (thanks Omar !!).
 
 Note: This script was written for a personal use-case — it may not be the most wieldy. It uses `pbcopy` which works on mac os. Look into `clip` if on windows or `xclip`/`xsel` if on linux.
 
@@ -11,7 +10,7 @@ Download, unzip, and place in same directory as `mnt/`, or place wherever and ch
 
 `./mdtabs.sh` copies the last focused tab to the clipboard and overwrites `tabs.md`.
 
-## Flags
+## Options
 
 `-a`: target All tabs
 
@@ -26,6 +25,12 @@ Download, unzip, and place in same directory as `mnt/`, or place wherever and ch
 ### Copy link to last focused tab
 
 `./mdtabs.sh`
+
+#### Output (copied to clipboard)
+
+`cat tabs.md`
+
+`[sulsanaul/mdtabs](https://github.com/sulsanaul/mdtabs)`
 
 ### Copy links to all tabs
 
@@ -42,3 +47,15 @@ Download, unzip, and place in same directory as `mnt/`, or place wherever and ch
 ### Copy and close all tabs except those matching "roam"
 
 `./mdtabs.sh -adx roam`
+
+### Copy all with a custom delimiter
+
+`./mdtabs.sh -am "* "`
+
+#### Output
+
+`cat tabs.md`
+```
+* [sulsanaul/mdtabs](https://github.com/sulsanaul/mdtabs)
+* [Home / Twitter](https://twitter.com/home)
+```
