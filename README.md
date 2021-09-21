@@ -4,7 +4,9 @@ Note: This script was written for a personal use-case — it may not be the most
 
 # Installation
 
-Download, unzip, and place in same directory as `mnt/`, or place wherever and change `$PRE_DIR`.
+Clone (or download/unzip) into same directory as `mnt/`, or place wherever and change `$PRE_DIR`.
+
+`chmod 755 mdtabs.sh`
 
 # Usage
 
