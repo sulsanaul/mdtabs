@@ -2,7 +2,7 @@
 
 Copy `[$TITLE]($URL)` of tabs to clipboard with [TabFS](https://github.com/osnr/TabFS) (thanks Omar !!).
 
-Note: This script was written for a personal use-case — it may not be the most wieldy. It uses `pbcopy` which works on mac os. Look into `clip` if on windows or `xclip`/`xsel` if on linux.
+Note: This script was written for a personal use-case — it may not be the most wieldy. It uses `pbcopy` which works on mac os. Look into `clip` if on windows or `xclip`/`xsel` if on linux. Also — here's a gist of an earlier script I was using that just copies every open tab except roam, with no available options: [capturetabs.sh](https://gist.github.com/sulsanaul/97006e76c5b7f495765205f4d88d0915). It has the benefit of being shorter and more readable.
 
 # Installation
 
